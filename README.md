@@ -96,16 +96,8 @@ The data is cleaned and processed to handle missing values and prepare it for an
 
 ## Acknowledgments
 
-- Data sourced from public records: `Motor_Vehicle_Collisions_-_Crashes.csv`
+- Data sourced from public records: [`Motor_Vehicle_Collisions_-_Crashes.csv`](https://catalog.data.gov/dataset/motor-vehicle-collisions-crashes)
 - Python libraries and Jupyter Notebook for enabling analysis.
-
----
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-
 
 ---
 
