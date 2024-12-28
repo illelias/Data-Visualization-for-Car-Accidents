@@ -10,7 +10,7 @@ This project analyzes motor vehicle collision data to uncover patterns and insig
 
 ## Dataset
 
-The dataset used in this analysis is [`Motor_Vehicle_Collisions_-_Crashes.csv](https://catalog.data.gov/dataset/motor-vehicle-collisions-crashes). It includes information about motor vehicle collisions, such as:
+The dataset used in this analysis is [`Motor_Vehicle_Collisions_-_Crashes.csv`](https://catalog.data.gov/dataset/motor-vehicle-collisions-crashes). It includes information about motor vehicle collisions, such as:
 
 - Crash date and time
 - Borough and ZIP code
@@ -29,6 +29,7 @@ The data is cleaned and processed to handle missing values and prepare it for an
   - `pandas` for data manipulation and analysis
   - `matplotlib` and `seaborn` for data visualization
 - Jupyter Notebook for code execution and visualization
+- Dash and Plotly for building an interactive dashboard
 
 ---
 
@@ -45,13 +46,31 @@ The data is cleaned and processed to handle missing values and prepare it for an
 3. **Visualization**:
    - Create plots to highlight key insights using `matplotlib` and `seaborn`.
 
+4. **Interactive Dashboard**:
+   - Develop a dashboard with Dash to provide dynamic visualizations and user interactivity.
+
 ---
 
-## Key Insights
+## Interactive Dashboard
 
-- Patterns in crash frequency by borough or ZIP code.
-- Relationships between contributing factors and crash severity.
-- Distribution of vehicle types involved in collisions.
+As part of this project, an interactive dashboard was created using Dash to explore motor vehicle collision data dynamically. The dashboard includes the following features:
+
+1. **Year Range Slider**:
+   - Allows users to filter data for specific years between 2017 and 2021.
+   - Updates all visualizations dynamically based on the selected year range.
+
+2. **Visualizations**:
+   - **Pie Chart (Collisions by Season)**:
+     - Displays the distribution of collisions across seasons.
+   - **Pie Chart (Collisions by Day/Night)**:
+     - Shows the proportion of collisions occurring during the day versus night.
+   - **Bar Chart (Collisions by Borough)**:
+     - Highlights the total number of collisions in each NYC borough.
+
+3. **Technology Stack**:
+   - **Dash**: For building the dashboard and handling interactivity.
+   - **Plotly Express**: For creating visually appealing and dynamic plots.
+   - **Pandas**: For data manipulation and filtering.
 
 ---
 
@@ -65,11 +84,11 @@ The data is cleaned and processed to handle missing values and prepare it for an
 
 2. **Install dependencies**:
    ```bash
-   pip install pandas matplotlib seaborn
+   pip install pandas matplotlib seaborn dash plotly
    ```
 
-3. **Download the dataset**:
-   - Ensure the `Motor_Vehicle_Collisions_-_Crashes.csv` file is in the same directory as the notebook.
+3. **Prepare the Dataset**:
+   - Ensure the `Motor_Vehicle_Collisions_-_Crashes.csv` and `cleaned_df.csv` files are in the appropriate directory.
 
 4. **Run the Jupyter Notebook**:
    ```bash
@@ -77,12 +96,18 @@ The data is cleaned and processed to handle missing values and prepare it for an
    ```
    - Open the notebook in your browser and execute the cells to reproduce the analysis.
 
+5. **Run the Dashboard**:
+   ```bash
+   python Final\ Project\ Dash.py
+   ```
+   - Open the provided URL in your web browser to interact with the dashboard.
+
 ---
 
 ## Visualizations
 
-- Static and interactive charts created with `matplotlib` and `seaborn`.
-- Examples include time-series plots of crashes and heatmaps of crash locations.
+- Static and interactive charts created with `matplotlib`, `seaborn`, and Dash.
+- Examples include time-series plots of crashes and interactive pie/bar charts in the dashboard.
 
 ---
 
