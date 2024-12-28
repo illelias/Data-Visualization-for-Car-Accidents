@@ -59,7 +59,7 @@ The data is cleaned and processed to handle missing values and prepare it for an
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/motor-vehicle-collision-analysis.git
+   git clone https://github.com/illelias/motor-vehicle-collision-analysis.git
    ```
 
 2. Install the required libraries:
@@ -77,7 +77,6 @@ The data is cleaned and processed to handle missing values and prepare it for an
 ## Visualizations
 
 - Static and interactive charts created with `matplotlib` and `seaborn`.
-- Examples include time-series plots of crashes and heatmaps of crash locations.
 
 ---
 
