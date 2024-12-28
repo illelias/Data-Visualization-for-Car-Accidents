@@ -10,7 +10,7 @@ This project analyzes motor vehicle collision data to uncover patterns and insig
 
 ## Dataset
 
-The dataset used in this analysis is [`Motor_Vehicle_Collisions_-_Crashes.csv](https://catalog.data.gov/dataset/motor-vehicle-collisions-crashes)`. It includes information about motor vehicle collisions, such as:
+The dataset used in this analysis is [`Motor_Vehicle_Collisions_-_Crashes.csv](https://catalog.data.gov/dataset/motor-vehicle-collisions-crashes). It includes information about motor vehicle collisions, such as:
 
 - Crash date and time
 - Borough and ZIP code
