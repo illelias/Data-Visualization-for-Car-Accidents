@@ -57,26 +57,32 @@ The data is cleaned and processed to handle missing values and prepare it for an
 
 ## How to Run the Project
 
-1. Clone the repository:
+1. **Clone the repository**:
    ```bash
-   git clone https://github.com/illelias/motor-vehicle-collision-analysis.git
+   git clone https://github.com/illelias/stjohns_625.git
+   cd stjohns_625/main
    ```
 
-2. Install the required libraries:
+2. **Install dependencies**:
    ```bash
    pip install pandas matplotlib seaborn
    ```
 
-3. Run the Jupyter Notebook:
+3. **Download the dataset**:
+   - Ensure the `Motor_Vehicle_Collisions_-_Crashes.csv` file is in the same directory as the notebook.
+
+4. **Run the Jupyter Notebook**:
    ```bash
    jupyter notebook Elias\ Illescas\ Final\ Project.ipynb
    ```
+   - Open the notebook in your browser and execute the cells to reproduce the analysis.
 
 ---
 
 ## Visualizations
 
 - Static and interactive charts created with `matplotlib` and `seaborn`.
+- Examples include time-series plots of crashes and heatmaps of crash locations.
 
 ---
 
@@ -92,6 +98,14 @@ The data is cleaned and processed to handle missing values and prepare it for an
 
 - Data sourced from public records: `Motor_Vehicle_Collisions_-_Crashes.csv`
 - Python libraries and Jupyter Notebook for enabling analysis.
+
+---
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+
 
 ---
 
